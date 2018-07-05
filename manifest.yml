@@ -1,9 +1,5 @@
+---
 applications:
-- path: .
+- name: sample-python-flask
+  random-route: true
   memory: 128M
-  instances: 1
-  domain: mybluemix.net
-  name: CIS Demo
-  host: CIS-Demo
-  disk_quota: 1024M
-  buildpack: python_buildpack
